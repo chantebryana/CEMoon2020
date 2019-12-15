@@ -22,6 +22,13 @@ namespace CEMoon2020.Controllers
             return View();
         }
 
+        public IActionResult Moon()
+        {
+            ViewData["Message"] = "Your application moon page.";
+
+            return View();
+        }
+
         public IActionResult Contact()
         {
             ViewData["Message"] = "Your contact page.";
